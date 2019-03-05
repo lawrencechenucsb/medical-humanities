@@ -122,7 +122,7 @@ h3{
 
 <div class="price-item">$3,576</div>
 
-<div class="price-item"><a href="https://ucsantabarbaraextension.zendesk.com/hc/en-us/requests/new" target="_blank">Contact Us!</a></div>
+<div class="price-item">N/A</div>
 
 
 
@@ -155,6 +155,7 @@ h3{
     
     <div class="price-item">
         <!-- Empy -->
+        <a href="https://enroll.professional.ucsb.edu/portal/applications/applicationProfile.do?method=loadApplicationIndex&amp;applicationProfileId=31148363" class="button">Contact Us!</a>
     </div>
     </div>
     </div>
