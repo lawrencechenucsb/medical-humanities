@@ -1,0 +1,101 @@
+<title></title>
+<link href="" rel="stylesheet" />
+<style type="text/css">body{
+    font-family: 'Avenir-Book';
+    color:#13385F;
+    width:100%;
+    font-size: 22px;
+}
+a:hover {
+    color:; 
+    text-decoration: none;
+    font-weight: 700;
+
+}
+
+h3{
+    font-family: 'Avenir-Book';
+    font-size: 2.5rem;
+    padding: 75px 0 20px 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.indiv-courses{a
+    width:60%;
+}
+
+.empty{
+    width:60%;
+}
+
+.community{
+    display:flex;
+    width:40%;
+}
+
+.comm-type{
+    width:33%;
+}
+
+.courses{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+
+}
+
+.prices{
+    display:flex;
+    align-content: center;
+    width:60%;
+}
+.price-item{
+    width:33%;
+    padding:10px 20px;
+    text-align:center;
+}
+</style>
+<container>
+<div id="ready">
+<h3>Ready to start?</h3>
+</div>
+
+<div class="courses">
+<div class="indiv-courses"><!-- Empty --></div>
+
+<div class="prices">
+<div class="price-item">UCSB Students</div>
+
+<div class="price-item">Community</div>
+
+<div class="price-item">International</div>
+</div>
+</div>
+
+<div class="courses">
+<div class="indiv-courses">Individual Courses</div>
+
+<div class="prices">
+<div class="price-item">$795</div>
+
+<div class="price-item">$795-$843</div>
+
+<div class="price-item">N/A</div>
+</div>
+</div>
+
+<div class="courses">
+<div class="indiv-courses">Complete Certificate Cost</div>
+
+<div class="prices">
+<div class="price-item">$1,740</div>
+
+<div class="price-item">$3,576</div>
+
+<div class="price-item"><a href="https://ucsantabarbaraextension.zendesk.com/hc/en-us/requests/new" target="_blank">Contact Us!</a></div>
+</div>
+</div>
+</container>
+
+<p>&nbsp;</p>
