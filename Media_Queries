@@ -1,0 +1,169 @@
+<title></title>
+<link href="" rel="stylesheet" />
+<style type="text/css">/* ADD media queries for breaking points on box.. */
+
+/* Buttons */
+.button1 {
+    padding: 10px 30px;
+    color: #13385F;
+    border: 3px solid #13385F;
+    text-transform: capitalize;
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+}
+.button2 {
+    padding: 10px 15px;
+}
+.button:hover {
+    background: #13385F;
+    color: #f8f8f8;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+}
+/* Main */
+body{
+    font-family: 'Avenir-Book';
+    color:#13385F;
+    width:100%;
+    font-size: 22px;
+}
+a:hover {
+    color:; 
+    text-decoration: none;
+    font-weight: 700;
+
+}
+h3{
+    font-family: 'Avenir-Book';
+    font-size: 2.5rem;
+    padding: 75px 0 20px 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+/* Grid template */
+.indiv-courses{
+    width:60%;
+}
+.empty{
+    width:60%;
+}
+.community{
+    display:flex;
+    width:40%;
+}
+.comm-type{
+    width:33%;
+}
+.courses{
+    display:flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.prices{
+    display:flex;
+    align-content: center;
+    width:60%;
+}
+.price-item{
+    width:33%;
+    padding:10px 20px;
+    text-align:center;
+}
+
+
+@media only screen  and (max-width : 790px) {
+/* Styles */
+
+.button1 {
+    /* background-color:tomato; */
+    padding: 10px 20px;
+    }
+    .button2 {
+    padding: 10px 15px;
+    display:none;
+    }
+    .col3{
+    display: none;
+    }
+
+    .price-item{
+    text-align:left;
+}
+
+
+@media only screen and (min-width: 790px){
+.button1 {
+/* background-color:purple; */
+padding: 10px 20px;
+}
+.button2 {
+padding: 10px 15px;
+/* display:none; */
+}
+.col3{
+/* display:none; */
+}
+
+
+
+</style>
+<container>
+<div id="ready">
+<h3>Ready to start?</h3>
+</div>
+
+<div class="courses">
+<div class="indiv-courses"><!-- Empty --></div>
+
+<div class="prices">
+<div class="price-item">UCSB Students</div>
+
+<div class="price-item">Community</div>
+
+<div class="price-item col3">International</div>
+</div>
+</div>
+
+<div class="courses">
+<div class="indiv-courses">Individual Courses</div>
+
+<div class="prices">
+<div class="price-item">$795</div>
+
+<div class="price-item">$795-$843</div>
+
+<div class="price-item col3">N/A</div>
+</div>
+</div>
+
+<div class="courses">
+<div class="indiv-courses">Complete Certificate Cost</div>
+
+<div class="prices">
+<div class="price-item">$1,740</div>
+
+<div class="price-item">$3,576</div>
+
+<div class="price-item col3">N/A</div>
+</div>
+</div>
+
+<div class="courses">
+<div class="indiv-courses"><!-- empty --></div>
+
+<div class="prices">
+<div class="price-item"><!-- Apply Now UCSB  --><a class="button1" href="https://enroll.professional.ucsb.edu/portal/applications/applicationProfile.do?method=loadApplicationIndex&amp;applicationProfileId=31817845" target="_blank">Apply</a></div>
+
+<div class="price-item"><!-- Apply Now Community --><a class="button1" href="https://enroll.professional.ucsb.edu/portal/applications/applicationProfile.do?method=loadApplicationIndex&amp;applicationProfileId=31817845" target="_blank">Apply</a></div>
+
+<div class="price-item"><!-- Empy --><a class="button1 button2" href="https://ucsantabarbaraextension.zendesk.com/hc/en-us/requests/new" target="_blank">Contact Us</a></div>
+</div>
+</div>
+</container>
+
+<p>&nbsp;</p>
