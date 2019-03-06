@@ -1,0 +1,301 @@
+<meta charset="utf-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="main.css" media="screen" rel="stylesheet" type="text/css" /><script src="main.js"></script>
+<style type="text/css">
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+}
+.main{
+    padding:10px;
+}
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body {
+    /* background-color: #13385F; */
+    color:#13385F;
+  }
+
+  h3 .ready-title{
+    color:#13385F;
+    font-family: 'Avenir-Book';
+    font-size: 1.75rem;
+    padding: 25px 0 20px 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+  .price-item{
+    /* display:none; */
+  }
+  .empty{
+      width:0%;
+  }
+  .type-item {
+    width: 29%;
+    text-align: center;
+    padding: 20px 0 20px 0;
+  }
+  .type-item span{
+    display:none;
+  }
+  .button2{
+    width:120px;
+  }
+
+  .price-item span{
+      display:none;
+  }
+
+  /*  */
+.price-item{
+    padding:0px;
+    /* border: 1px solid black; */
+    text-decoration: underline;
+}
+
+.type {   
+      display:flex;
+      flex-direction: row;
+      width: 500px;
+  } 
+
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+    h3 {
+    font-family: 'Avenir-Book';
+    font-size: 2.5rem;
+    padding: 75px 0 20px 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+  body {
+    /* background-color: ##13385F; */
+    color:#13385F;
+  }
+
+  .type {   
+      display:flex;
+      flex-direction: row;
+      width: 500px;
+  }
+
+  .type-item{
+    width:100px;
+    /* border: 1px solid black; */
+    padding:30px;
+    padding: 2% 10px;
+    text-align: center;
+}
+
+.type-item span{
+    display:none;
+  }
+
+.button2{
+    width:133px;
+}
+
+.empty{
+      display:block;
+      width:50%  
+}
+    
+.price-item {
+    padding: 10px 0 10px 0;
+    /* border: 1px solid black; */
+}
+}
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  
+    h3 {
+    font-family: 'Avenir-Book';
+    font-size: 2.5rem;
+    padding: 75px 0 20px 0;
+    font-weight: 500;
+    line-height: 1.2;
+}
+  
+  body {
+    color:#13385F;
+    font-size: 22px;
+  }
+
+  .type {   
+      display:flex;
+      flex-direction: row;
+      width: 50%;
+  }
+
+
+  .type-item{
+    width:30%;
+    /* border: 1px solid black; */
+    padding: 2% 10px;
+    text-align: center;
+}
+
+.empty{
+      display:block;
+      width:50%;  
+}
+
+.button2{
+    width:133px;
+}
+
+/*  */
+.price-item{
+    padding:15px;
+    /* border: 1px solid black; */
+}
+
+
+}
+
+/* base styles
+    Desktop = fixed 
+    tablet and mobile = fluid
+ */
+
+ body {
+    font-family: 'Avenir-Book';
+ }    
+
+.container1{
+    display:flex;
+}
+
+/* ucsb comm int */
+
+
+/* buttons */
+/* a:hover, a:visited, a:focus, a.active{
+    background:white;
+} */
+
+.but1{
+    /* -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button; */
+    font-family: 'Avenir-Book';
+    padding: 5px 20px;
+    color: #13385F;
+    border: 2px solid #13385F;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    background: white;
+}
+.but1:hover{
+    color:white;
+    background:#13385F;
+    /* background: transparent; */
+    border: 3px solid #13385F;
+    text-transform: capitalize;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+
+.type-item button:hover {
+    /* background: white; */
+    color: white;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+    transition: background 0.3s;
+}
+}
+</style>
+<div class="main" id="ready">
+<div id="alfa-ready">
+<h3 class="ready-title">Ready to start?</h3>
+</div>
+
+<div class="container1">
+<div class="empty">
+<p>&nbsp;</p>
+</div>
+
+<div class="type">
+<div class="type-item">UCSB <span>Students</span></div>
+
+<div class="type-item">Community</div>
+
+<div class="type-item">International <span>Students</span></div>
+</div>
+</div>
+
+<div class="container1">
+<div class="empty">
+<div class="price-item"><span>Individual</span> Courses</div>
+</div>
+
+<div class="type">
+<div class="type-item">$795</div>
+
+<div class="type-item">$795-$1,124
+    </div>
+
+<div class="type-item">N/A</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="empty">
+<div class="price-item"><span>Complete</span> Certificate <span>Cost</span></div>
+</div>
+
+<div class="type">
+<div class="type-item">$1740</div>
+
+<div class="type-item">$3,576</div>
+
+<div class="type-item">N/A</div>
+</div>
+</div>
+
+<div class="container1">
+<div class="empty">
+<p>&nbsp;</p>
+</div>
+
+<div class="type">
+<div class="type-item">
+    <a class="but1" href="https://enroll.professional.ucsb.edu/portal/applications/applicationProfile.do?method=loadApplicationIndex&applicationProfileId=31817845" target="_blank">Apply</a>
+</div>
+
+<div class="type-item">
+        <a class="but1" href="https://enroll.professional.ucsb.edu/portal/applications/applicationProfile.do?method=loadApplicationIndex&applicationProfileId=31817845" target="_blank">Apply</a>
+</div>
+
+<div class="type-item"><a class="but1 button2" href="https://ucsantabarbaraextension.zendesk.com/hc/en-us/requests/new" target="_blank">Contact <span>Us!</span></a></div>
+</div>
+</div>
+</div>
